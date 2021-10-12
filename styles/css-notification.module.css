@@ -1,0 +1,31 @@
+.chatNotification {
+  display: flex;
+  max-width: 24rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.chatNotificationlogoWrapper {
+  flex-shrink: 0;
+}
+.chatNotificationLogo {
+  height: 3rem;
+  width: 3rem;
+}
+.chatNotificationContent {
+  margin-left: 1.5rem;
+  padding-top: 0.25rem;
+}
+.chatNotificationTitle {
+  color: #1a202c;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+.chatNotificationMessage {
+  color: #718096;
+  font-size: 1rem;
+  line-height: 1.5;
+}
